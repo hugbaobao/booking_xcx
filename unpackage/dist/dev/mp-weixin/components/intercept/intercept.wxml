@@ -1,0 +1,1 @@
+<view class="big_box data-v-7e6e364c"><u-popup wx:if="{{b}}" class="data-v-7e6e364c" u-s="{{['d']}}" u-i="7e6e364c-0" bind:__l="__l" bindupdateModelValue="{{a}}" u-p="{{b}}"><view class="opened data-v-7e6e364c">此页面需要登录查看，即将跳转到登录页面</view></u-popup></view>

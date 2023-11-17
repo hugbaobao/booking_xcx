@@ -1,0 +1,1 @@
+<view class="nav_home data-v-42ced076" style="{{c}}"><text class="words data-v-42ced076">首页</text><view class="search data-v-42ced076" bindtap="{{b}}"><van-icon wx:if="{{r0}}" class="data-v-42ced076" u-t="m" u-i="42ced076-0" bind:__l="__l" u-p="{{a}}"/><text class="data-v-42ced076" style="margin-left:15rpx">搜索</text></view></view>

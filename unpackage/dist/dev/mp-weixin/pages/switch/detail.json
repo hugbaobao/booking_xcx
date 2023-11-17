@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设计详情",
+  "usingComponents": {
+    "u-toast": "../../uni_modules/vk-uview-ui/components/u-toast/u-toast",
+    "my-swiper": "../../components/nonavto/swiper"
+  }
+}

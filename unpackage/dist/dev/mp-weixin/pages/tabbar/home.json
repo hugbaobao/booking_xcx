@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "my-navgation": "../../components/navgation/home",
+    "my-swiper": "../../components/home/swiper",
+    "my-switch": "../../components/home/switch",
+    "my-ant-swiper": "../../components/home/antswiper",
+    "my-sort": "../../components/home/sort"
+  }
+}

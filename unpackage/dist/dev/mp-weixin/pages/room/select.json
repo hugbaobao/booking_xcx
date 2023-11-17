@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "房间列表",
+  "usingComponents": {
+    "my-screen": "../../components/list/screen",
+    "my-tabs": "../../components/list/tabs",
+    "my-scrolly": "../../components/common/scrolly"
+  }
+}

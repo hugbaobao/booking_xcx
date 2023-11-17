@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "更多商品",
+  "usingComponents": {
+    "u-search": "../../uni_modules/vk-uview-ui/components/u-search/u-search",
+    "u-toast": "../../uni_modules/vk-uview-ui/components/u-toast/u-toast",
+    "my-sell": "../../components/common/sell"
+  }
+}

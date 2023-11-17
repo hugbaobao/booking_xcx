@@ -1,0 +1,268 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/tabbar/room",
+      "style": {
+        "navigationBarTitleText": "房间预定"
+      }
+    },
+    {
+      "path": "pages/tabbar/trip",
+      "style": {
+        "navigationBarTitleText": "行程助手"
+      }
+    },
+    {
+      "path": "pages/tabbar/home",
+      "style": {
+        // 隐藏顶部
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tabbar/shop",
+      "style": {
+        "navigationBarTitleText": "商城"
+      }
+    },
+    {
+      "path": "pages/tabbar/personal",
+      "style": {
+        // 隐藏顶部
+        "navigationStyle": "custom"
+      }
+    },
+    // 日期选择
+	{
+	  "path": "pages/picker/calendar",
+	  "style": {
+	    "navigationBarTitleText": "选择日期"
+	  }
+	},
+	// 房间
+	// 选择
+	{
+	  "path": "pages/room/select",
+	  "style": {
+	    "navigationBarTitleText": "房间列表"
+	  }
+	},
+	{
+	  "path": "pages/room/details",
+	  "style": {
+	    "navigationBarTitleText": "房间详情"
+	  }
+	},
+	{
+	  "path": "pages/room/booking",
+	  "style": {
+	    "navigationBarTitleText": "订单填写"
+	  }
+	},
+	{
+	  "path": "pages/input/idcard",
+	  "style": {
+	    "navigationBarTitleText": "预定提醒"
+	  }
+	},
+	{
+	  "path": "pages/agreement/idcard",
+	  "style": {
+	    "navigationBarTitleText": "身份证件使用协议"
+	  }
+	},
+	{
+	  "path": "pages/map/map",
+	  "style": {
+	    "navigationBarTitleText": "位置信息"
+	  }
+	},
+	{
+        "path" : "pages/order/order",
+        "style" : {
+            "navigationBarTitleText": "订单",
+            "enablePullDownRefresh": false
+        }
+    },
+	{
+	    "path" : "pages/switch/item/culture",
+	    "style" : {
+	        "navigationBarTitleText": "共创中心"
+	    }
+	},
+	{
+	    "path" : "pages/switch/item/trip",
+	    "style" : {
+	        "navigationBarTitleText": "旅行攻略"
+	    }
+	},
+	{
+	    "path" : "pages/switch/detail",
+	    "style" : {
+	        "navigationBarTitleText": "设计详情"
+	    }
+	},
+	{
+	    "path" : "pages/switch/center",
+	    "style" : {
+	        "navigationBarTitleText": "共创详情"
+	    }
+	},
+	{
+	    "path" : "pages/search/index",
+	    "style" : {
+	        "navigationBarTitleText": "搜索"
+	    }
+	},
+	{
+	    "path" : "pages/order/goodsdetail",
+	    "style" : {
+	        "navigationBarTitleText": "商品详情"
+	    }
+	},
+	{
+	    "path" : "pages/order/car",
+	    "style" : {
+	        "navigationBarTitleText": "购物车"
+	    }
+	},
+	{
+	    "path" : "pages/personal/wallet",
+	    "style" : {
+	        "navigationBarTitleText": "我的余额"
+	    }
+	},
+	{
+	    "path" : "pages/personal/coupon",
+	    "style" : {
+	        "navigationBarTitleText": "领券中心"
+	    }
+	},
+	{
+	    "path" : "pages/personal/mycoupon",
+	    "style" : {
+	        "navigationBarTitleText": "我的优惠券"
+	    }
+	},
+	{
+	    "path" : "pages/personal/vip",
+	    "style" : {
+	        "navigationBarTitleText": "会员中心"
+	    }
+	},
+	{
+	    "path" : "pages/personal/jifen",
+	    "style" : {
+	        "navigationBarTitleText": "我的银两"
+	    }
+	},
+	{
+	    "path" : "pages/switch/item/addtrip",
+	    "style" : {
+	        "navigationBarTitleText": "创建攻略"
+	    }
+	},
+	{
+	    "path" : "pages/switch/item/addcenter",
+	    "style" : {
+	        "navigationBarTitleText": "添加创意"
+	    }
+	},
+	{
+	    "path" : "pages/list/product",
+	    "style" : {
+	        "navigationBarTitleText": "更多商品"
+	    }
+	},
+	{
+	    "path" : "pages/login/login",
+	    "style" : {
+	        "navigationBarTitleText": "登录"
+	    }
+	},
+	{
+	    "path" : "pages/login/setmymsg",
+	    "style" : {
+	        "navigationBarTitleText": "个人信息"
+	    }
+	}
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#ffffff",
+    // 引入vant
+    "usingComponents": {
+      "van-dropdown-menu": "/wxcomponents/vant/dropdown-menu/index",
+      "van-dropdown-item": "/wxcomponents/vant/dropdown-item/index",
+      "van-icon": "/wxcomponents/vant/icon/index",
+	  "van-tab": "/wxcomponents/vant/tab/index",
+	  "van-tabs": "/wxcomponents/vant/tabs/index",
+	  "van-checkbox": "/wxcomponents/vant/checkbox/index",
+	  "van-checkbox-group": "/wxcomponents/vant/checkbox-group/index",
+	  "van-button": "/wxcomponents/vant/button/index",
+	  "van-action-sheet": "/wxcomponents/vant/action-sheet/index",
+	  "van-field": "/wxcomponents/vant/field/index",
+	  "van-popup": "/wxcomponents/vant/popup/index",
+	  "van-checkbox": "/wxcomponents/vant/checkbox/index",
+	  "van-search": "/wxcomponents/vant/search/index",
+	  "van-sidebar": "/wxcomponents/vant/sidebar/index",
+	  "van-sidebar-item": "/wxcomponents/vant/sidebar-item/index",
+	  "van-cell": "/wxcomponents/vant/cell/index",
+	  "van-dropdown-menu": "/wxcomponents/vant/dropdown-menu/index",
+	  "van-dropdown-item": "/wxcomponents/vant/dropdown-item/index",
+	  "van-goods-action": "/wxcomponents/vant/goods-action/index",
+	  "van-goods-action-icon": "/wxcomponents/vant/goods-action-icon/index",
+	  "van-goods-action-button": "/wxcomponents/vant/goods-action-button/index",
+	  "van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+	  "van-card": "/wxcomponents/vant/card/index",
+	  "van-divider": "/wxcomponents/vant/divider/index",
+	  "van-submit-bar": "/wxcomponents/vant/submit-bar/index",
+	  "van-empty": "/wxcomponents/vant/empty/index",
+	  "van-field": "/wxcomponents/vant/field/index",
+	  "van-count-down": "/wxcomponents/vant/count-down/index",
+	  "van-dialog": "/wxcomponents/vant/dialog/index",
+	  "van-sticky": "/wxcomponents/vant/sticky/index"
+    }
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#8F8F94",
+    "selectedColor": "#ffaa00",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/room",
+        "iconPath": "static/img/kefang.png",
+        "selectedIconPath": "static/img/kefang-copy.png",
+        "text": "房间预定"
+      },
+      {
+        "pagePath": "pages/tabbar/trip",
+        "iconPath": "static/img/hangcheng.png",
+        "selectedIconPath": "static/img/hangcheng-copy.png",
+        "text": "行程助手"
+      },
+      {
+        "pagePath": "pages/tabbar/home",
+        "iconPath": "static/img/shouye-shouye.png",
+        "selectedIconPath": "static/img/shouye-shouye-copy.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/shop",
+        "iconPath": "static/img/car.png",
+        "selectedIconPath": "static/img/car-copy.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/tabbar/personal",
+        "iconPath": "static/img/wode.png",
+        "selectedIconPath": "static/img/wode-copy.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}

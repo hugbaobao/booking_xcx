@@ -1,0 +1,1 @@
+<view class="myswiper data-v-786ceffd"><swiper class="swiper data-v-786ceffd" indicator-dots circular autoplay="{{true}}" duration="{{500}}" bindchange="{{b}}"><swiper-item wx:for="{{a}}" wx:for-item="item" wx:key="b" class="data-v-786ceffd"><image src="{{item.a}}" mode="" class="innnerImg data-v-786ceffd"></image></swiper-item></swiper></view>

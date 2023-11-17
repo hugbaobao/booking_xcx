@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "商城",
+  "usingComponents": {
+    "my-hot": "../../components/shop/content/hot",
+    "my-new": "../../components/shop/content/new",
+    "my-local": "../../components/shop/content/local",
+    "my-wear": "../../components/shop/content/wear",
+    "my-home": "../../components/shop/content/home",
+    "my-intercept": "../../components/intercept/intercept"
+  }
+}

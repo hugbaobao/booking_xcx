@@ -1,0 +1,1 @@
+<view class="content data-v-c82bc29d"><scroll-view scroll-y="true" class="scroll-Y data-v-c82bc29d" bindscrolltolower="{{b}}"><my-block wx:for="{{a}}" wx:for-item="item" wx:key="a" class="data-v-c82bc29d" u-i="{{item.b}}" bind:__l="__l" u-p="{{item.c}}"></my-block></scroll-view></view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "旅行攻略",
+  "usingComponents": {
+    "my-trip": "../../../components/list/switch/trip/trip",
+    "my-article": "../../../components/list/switch/trip/article"
+  }
+}

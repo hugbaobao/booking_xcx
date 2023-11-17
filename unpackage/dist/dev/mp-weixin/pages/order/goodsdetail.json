@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "my-swiper": "../../components/nonavto/swiper",
+    "my-car": "../../components/shop/car",
+    "my-intercept": "../../components/intercept/intercept"
+  }
+}

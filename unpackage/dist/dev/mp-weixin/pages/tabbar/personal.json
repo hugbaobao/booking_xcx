@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "my-header": "../../components/personal/header",
+    "my-card": "../../components/personal/card",
+    "my-order": "../../components/personal/order",
+    "my-others": "../../components/personal/others",
+    "my-intercept": "../../components/intercept/intercept"
+  }
+}

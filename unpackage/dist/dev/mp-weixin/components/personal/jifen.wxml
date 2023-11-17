@@ -1,0 +1,1 @@
+<view wx:for="{{a}}" wx:for-item="li" wx:key="e" class="li data-v-422ad145"><view class="left data-v-422ad145"><text class="top data-v-422ad145">{{li.a}}</text><text class="data-v-422ad145">{{li.b}}</text></view><view class="num data-v-422ad145"><text class="data-v-422ad145">{{li.c}}</text><text class="data-v-422ad145">{{li.d}}</text></view></view>

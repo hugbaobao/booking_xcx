@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "领券中心",
+  "usingComponents": {
+    "my-receive": "../../components/personal/ticket/receive"
+  }
+}

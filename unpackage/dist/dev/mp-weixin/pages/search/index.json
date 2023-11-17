@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索",
+  "usingComponents": {
+    "u-search": "../../uni_modules/vk-uview-ui/components/u-search/u-search",
+    "my-addcar": "../../components/search/addcar"
+  }
+}

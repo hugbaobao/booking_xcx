@@ -1,0 +1,1 @@
+<view class="sort data-v-c7795bd3"><image src="{{a}}" mode="" class="img data-v-c7795bd3"></image><view class="goods data-v-c7795bd3"><my-sell wx:for="{{b}}" wx:for-item="item" wx:key="a" class="mysell data-v-c7795bd3" u-i="{{item.b}}" bind:__l="__l" u-p="{{item.c}}"></my-sell></view></view>

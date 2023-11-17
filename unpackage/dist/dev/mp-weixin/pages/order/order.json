@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tabs": "../../uni_modules/vk-uview-ui/components/u-tabs/u-tabs",
+    "u-empty": "../../uni_modules/vk-uview-ui/components/u-empty/u-empty",
+    "u-toast": "../../uni_modules/vk-uview-ui/components/u-toast/u-toast"
+  }
+}

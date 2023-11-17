@@ -1,0 +1,1 @@
+<view class="title data-v-22dd87d7"><view class="bold data-v-22dd87d7"><block wx:if="{{$slots.d}}"><slot></slot></block><block wx:else>粗体</block></view><view class="thin data-v-22dd87d7"><block wx:if="{{$slots.thin}}"><slot name="thin"></slot></block><block wx:else>细体</block></view></view>

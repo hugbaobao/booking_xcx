@@ -1,0 +1,86 @@
+// component room select
+.drop {
+	.u-dropdown {
+		&__menu {
+			&__item {
+				&__arrow {
+					display: none!important;  //覆盖
+				}
+				&__text {
+					overflow: hidden;
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-line-clamp: 1;
+					line-clamp: 1;
+					-webkit-box-orient: vertical;
+					padding-right: 60rpx;
+				}
+			}
+		}
+		
+		.u-cell {
+			height: 80rpx;
+			line-height: 80rpx;
+			.u-cell_title {
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 1;
+				line-clamp: 1;
+				-webkit-box-orient: vertical;
+			}
+		}
+	}
+}
+
+.u-dropdown__content__mask {
+	display: none;
+}
+
+
+// input idcard 
+.idcard {
+	.btn {
+		.van-checkbox__icon {
+			border: 1px solid #07c160;
+		}
+	}
+}
+.idcard {
+	.button {
+		.u-btn {
+			border: none;
+		}
+	}
+}
+
+// shop 
+.shop {
+	.van-sidebar-item--selected {
+		.van-sidebar-item__text {
+			color: #93642b!important;
+		}
+	}
+	.van-sidebar {
+		background-color: #fff!important;
+	}
+}
+
+
+// 订单页
+.order{
+	.list{
+		.van-card {
+			background-color: #fff;
+		}
+	}
+}
+
+// 购物车
+.car{
+	.list{
+		.van-card {
+			background-color: #fff;
+		}
+	}
+}

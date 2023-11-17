@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "会员中心",
+  "usingComponents": {
+    "u-toast": "../../uni_modules/vk-uview-ui/components/u-toast/u-toast"
+  }
+}

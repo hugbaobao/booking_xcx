@@ -1,0 +1,1 @@
+<view class="coupon data-v-8329207e"><view wx:if="{{a}}" class="list data-v-8329207e"><my-receive wx:for="{{b}}" wx:for-item="item" wx:key="a" class="data-v-8329207e" u-i="{{item.b}}" bind:__l="__l" u-p="{{item.c}}"></my-receive></view></view>

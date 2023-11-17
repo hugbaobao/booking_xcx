@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "房间预定",
+  "usingComponents": {
+    "u-button": "../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "u-toast": "../../uni_modules/vk-uview-ui/components/u-toast/u-toast",
+    "my-ant-swiper": "../../components/home/antswiper",
+    "my-select": "../../components/room/select",
+    "my-select-time": "../../components/room/selecttime",
+    "my-sell": "../../components/common/sell",
+    "my-mixin": "../../components/mixin/mixin"
+  }
+}
